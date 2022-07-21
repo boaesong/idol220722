@@ -1,4 +1,4 @@
-import discord, asyncio, datetime, pytz
+import discord
 
 intents = discord.Intents.all()
 client = discord.Client(intents=intents)
@@ -18,4 +18,4 @@ async def on_message(message):
 
 
 # 봇을 실행시키기 위한 토큰을 작성해주는 곳
-client.run('OTk4OTM2MjE1MDExMjEzMzUy.GhB5C9.-5-MbXHNa4DmkNSc0NYneapA9t14L6oU3lmxrk')
+client.run('')
