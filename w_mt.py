@@ -18,5 +18,5 @@ async def on_message(message):
 
 
 # 봇을 실행시키기 위한 토큰을 작성해주는 곳
-access_token = os.environ["BOT_TOKEN"]
+access_token = os.environ['BOT_TOKEN']
 client.run(access_token)
